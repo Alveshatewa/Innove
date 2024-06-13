@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link name="decription" content="InnoveWare">
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Página Principal</title>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header
+        class="bg-gradient-to-r from-green-700 to-green-950 shadow-lg fixed top-0 w-full z-50 transition-all duration-300">
+        <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <div>
+                <a href="./Principal.html">
+                    <img src="../assets/img/innve-white.png" class="w-24 h-24" alt="logo InnoveWare">
+                </a>
+            </div>
+
+            <!-- Btn mostrar e esconder menu -->
+            <div class="md:hidden ">
+                <button id="menu-button" class="text-white text-2xl " aria-label="Menu">&#9776;</button>
+            </div>
+            <!-- Fim Btn mostrar e esconder menu -->
+
+            <nav class="hidden md:flex md:ml-6">
+                <div class="flex space-x-4">
+                    <a href="./Principal.html"
+                        class="text-white border-b border-orange-200 hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Início</a>
+                    <a href="./pages/about_us/Sobre.html"
+                        class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Sobre</a>
+                    <a href="./pages/Services/Services.html"
+                        class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Serviços</a>
+                    <a href="./pages/contact/Contactos.html"
+                        class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Contactos</a>
+                </div>
+            </nav>
+        </div>
+        <div id="mobile-menu" class="hidden transition-all duration-1000">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="./Principal.html"
+                    class="text-white hover:text-gray-300 block px-3 py-2 rounded-md text-base font-normal">Início</a>
+                <a href="./pages/about_us/Sobre.html"
+                    class="text-white hover:text-gray-300 block px-3 py-2 rounded-md text-base font-normal">Sobre</a>
+                <a href="./pages/Services/Services.html"
+                    class="text-white hover:text-gray-300 block px-3 py-2 rounded-md text-base font-normal">Serviços</a>
+                <a href="./pages/contact/Contactos.html"
+                    class="text-white hover:text-gray-300 block px-3 py-2 rounded-md text-base font-normal">Contactos</a>
+            </div>
+        </div>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Main -->
+    <main class="bg-gradient-to-r from-green-700 to-green-950 p-4 pb-8 mb-8">
+        <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between mt-20 md:mt-40">
+            <div class="flex flex-col items-center md:items-start">
+                <h1 class="text-4xl md:text-6xl text-center md:text-left text-white uppercase">Bem vindo</h1>
+                <p class="font-light text-white animate-pulse">À INNOVEWARE</p>
+                <div class="flex flex-wrap justify-center md:justify-start gap-6 text-white mt-4 md:text-2xl">
+                    <p>Tecnologia</p>
+                    <p>Inovação</p>
+                    <p>Criatividade</p>
+                </div>
+            </div>
+            <div class="flex w-40 h-40 md:w-60 md:h-60 animate-pulse mt-8 md:mt-0">
+                <img data-aos="zoom-in" src="../assets/img/phone.png" alt="Phone Image"
+                    class="w-full h-full object-contain">
+            </div>
+        </div>
+    </main>
+    <!-- Fim Main -->
+
+    <!-- Section -->
+    <section>
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-4xl mb-10 text-center font-semibold text-green-500 "> Nossos Serviços </h1>
+            <div class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- Card Component -->
+                <div data-aos="fade-up-right"
+                    class="shadow border-gray-300 border rounded-lg mb-4 w-full p-6  duration-300 flex items-center justify-center flex-col ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                    </svg>
+
+                    <h1 class=" text-lg font-semibold mb-2 text-blue-700">Desenvolvimento de Softwares</h1>
+                    <p class=" text-center">Criamos para sí e para a sua empresa, desde os mais simples aos mais complexos sistemas Web
+                     
+                    </p>
+                </div>
+
+
+                
+                <div data-aos="fade-up-right"
+                    class="mb-4 w-full p-6 hover:bg-zinc-900 duration-300 flex items-center justify-center flex-col shadow-lg rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-44 text-white mb-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                    </svg>
+                    <h1 class="text-white text-xl font-semibold mb-2">Assistencia Técnica</h1>
+                    <p class="text-white text-center">Criamos para você todo o site com as melhores práticas de
+                        desenvolvimento.</p>
+                </div>
+
+
+                <div data-aos="fade-up-right"
+                    class="border-gray-300 border rounded-lg mb-4 w-full p-4  duration-300 flex items-center justify-center flex-col ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-44 text-green-900 mb-4">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
+                    </svg>
+                    <h1 class=" text-lg font-semibold mb-2 text-blue-700"> Design e Comunicação</h1>
+                    <p class=" text-center">Para além de desenvolvimento de aplicações, também actuamos na área 
+                        técnica de informática, como manutenção e reparação de computadores. Para além disso, Contamos
+                    com designers qualificados para tratar da identidade visual da sua empresa e muito mais. </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Fim Section -->
+
+
+    <!-- Section habilidades -->
+    <section class="bg-blue-100">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-2xl mb-10 text-center font-semibold text-green-500">INNOVEWARE</h1>
+            <div class="flex items-center justify-between max-sm:flex-col">
+                
+
+                <div class="p-6">
+                    <h1 class="font-semibold text-center">Quem Somos?</h1>
+                    <p>Somos uma Startup com o objectivo de trazer o melhor que há da tecnologia para a sua empresa.
+                        Nossas áreas de destaque e actuação estão baseadas em resolver problemas e ajudar pessoas.
+                    </p>
+                        <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolor, veniam adipisci obcaecati
+                        nostrum quaerat magni, ab aspernatur id ipsum eveniet magnam provident ad accusamus repellat?
+                        Deleniti reiciendis ipsum officia.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Fim Section habilidades -->
+
+
+    <!-- Nosso Team -->
+    <section>
+        <div class="max-w-5xl mx-auto mb-8">
+            <h1 class="text-2xl mb-10 t text-center font-semibold text-green-500">Nosso Team</h1>
+            <div class="grid gap-4 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4">
+                <!-- Card Component -->
+
+                <div data-aos="fade-up"
+                    class=" mb-4 w-60 h-64 mx-auto hover:bg-zinc-500 duration-300 flex items-center justify-center flex-col shadow-lg bg-zinc-900  ">
+                    <img src="../assets/img/abel.jpg" class="bg-cover rounded-full w-24 h-24 border-2 border-blue-50"
+                        alt="Abel img">
+                    <h1 class="text-white text-xl font-semibold ">Abel Namuele</h1>
+                    <p class="text-white text-center"> Dev Front End </p>
+                    <div class="flex space-x-4 mb-2 mt-8">
+                        <a href="https://wa.me//+244944690252">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/whats.png" alt="whats">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/fb.png" alt="fb">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/telegram.png" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up"
+                    class=" mb-4 w-60 h-64 mx-auto hover:bg-zinc-500 duration-300 flex items-center justify-center flex-col shadow-lg bg-zinc-900  ">
+                    <img src="../assets/img/Alves.jpg" class="bg-cover rounded-full w-24 h-24 border-2 border-blue-50"
+                        alt="Alves img">
+                    <h1 class="text-white text-xl font-semibold ">Alves Hatewa</h1>
+                    <p class="text-white text-center"> Dev FullStack </p>
+                    <div class="flex space-x-4 mb-2 mt-8">
+                        <a href="https://wa.me//+244946602461">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/whats.png" alt="whats">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/fb.png" alt="fb">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/telegram.png" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div data-aos="fade-up"
+                    class=" mb-4 w-60 h-64 mx-auto hover:bg-zinc-500 duration-300 flex items-center justify-center flex-col shadow-lg bg-zinc-900  ">
+                    <img src="../assets/img/abel.jpg" class="bg-cover rounded-full w-24 h-24 border-2 border-blue-50"
+                        alt="Abel img">
+                    <h1 class="text-white text-xl font-semibold ">Bentigildo de Oliveira</h1>
+                    <p class="text-white text-center"> Gestor Empresarial</p>
+                    <div class="flex space-x-4 mb-2 mt-8">
+                        <a href="https://wa.me//+244942280318">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/whats.png" alt="whats">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/fb.png" alt="fb">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/telegram.png" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+
+
+                <div data-aos="fade-up"
+                    class=" mb-4 w-60 h-64 mx-auto hover:bg-zinc-500 duration-300 flex items-center justify-center flex-col shadow-lg bg-zinc-900  ">
+                    <img src="../assets/img/abel.jpg" class="bg-cover rounded-full w-24 h-24 border-2 border-blue-50"
+                        alt="Abel img">
+                    <h1 class="text-white text-xl font-semibold ">Chris</h1>
+                    <p class="text-white text-center"> Dev Front End </p>
+                    <div class="flex space-x-4 mb-2 mt-8">
+                        <a href="https://wa.me//+244949136844">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/whats.png" alt="whats">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/fb.png" alt="fb">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/telegram.png" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-up"
+                    class=" mb-4 w-60 h-64 mx-auto hover:bg-zinc-500 duration-300 flex items-center justify-center flex-col shadow-lg bg-zinc-900  ">
+                    <img src="../assets/img/abel.jpg" class="bg-cover rounded-full w-24 h-24 border-2 border-blue-50"
+                        alt="Abel img">
+                    <h1 class="text-white text-xl font-semibold ">Inácio Mahole</h1>
+                    <p class="text-white text-center"> Dev Back-End </p>
+                    <div class="flex space-x-4 mb-2 mt-8">
+                        <a href="https://wa.me//+244941841322">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/whats.png" alt="whats">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/fb.png" alt="fb">
+                        </a>
+                        <a href="">
+                            <img class="bg-cover w-4 h-4" src="../assets/img/telegram.png" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Fim Nosso Team -->
+
+    <!-- Fale conosco -->
+    <section class="bg-green-900 bg-cover bg-repeat bg-center mb-8"
+        style="opacity: 1; background: url(../assets/img/nature.jpg);">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex items-center justify-between max-sm:flex-col">
+                <div class="p-8">
+                    <h1 class="text-white text-5xl">Contacte-Nos</h1>
+                    <p class="text-white">Para mais informações entre em contacto com o nosso suporte
+                        para estar a par das novas atualizações, no tempo oportuno.
+                    </p>
+                </div>
+                <div class="flex items-center justify-between flex-wrap p-6">
+                    <form>
+                        <div class="mb-4 flex flex-col w-full">
+                            <label class="text-white" for="nome">Nome</label>
+                            <input
+                                class="outline-blue-500 duration-300 transition-all border border-gray-100 w-96 p-1 rounded"
+                                type="text" name="nome" id="nome" />
+                        </div>
+                        <div class="mb-4 flex flex-col w-full">
+                            <label class="text-white" for="email">Email</label>
+                            <input class="outline-blue-500 w-96 p-1 rounded" type="text" name="email" id="email" />
+                        </div>
+                        <div class="mb-4 flex flex-col w-full">
+                            <label class="text-white" for="mensagem">Mensagem</label>
+                            <textarea class="w-96 outline-blue-500" name="mensagem" id="mensagem"></textarea>
+                        </div>
+                        <div class="w-full mb-4">
+                            <button
+                                class="focus:bg-blue-400 ring-2 text-white rounded-lg hover:bg-blue-500 transition-colors duration-300 bg-blue-700 px-8 py-2">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fale conosco -->
+
+    <!-- Footer -->
+    <footer class="h-40 shadow mt-4 p-4 bg-gradient-to-r from-green-700 to-green-950">
+        <div class="max-w-5xl mx-auto text-center">
+            <p class="text-white">&copy; 2024 InnoveWare. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <!-- Fim Footer -->
+
+    <!-- Botão Whatsapp -->
+    <div
+        class="fixed z-50 right-4 bottom-4 rounded-lg text-white px-2 py-2 bg-zinc-500 hover:bg-slate-800 duration-300">
+        <a class="z-50" href="https://wa.me//+244944690252" target="_blank" aria-label="Whatsapp">
+            <img class="w-8 h-8" src="../assets/img/whats.png" alt="Vamos falar no WhatsApp">
+        </a>
+    </div>
+    <!-- Fim Botão Whatsapp -->
+
+    <script src="../script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
